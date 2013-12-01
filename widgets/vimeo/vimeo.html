@@ -1,0 +1,13 @@
+<a href="https://vimeo.com/gearupio">
+    <h1 class="title">Vimeo</h1>
+</a>
+
+<ul class="list-nostyle">
+    <a data-bind-href="item.url" data-foreach-item="videos">
+        <li>
+            <img data-bind-src="item.thumbnail_small"></img>
+            <span class="value" data-bind="item.stats_number_of_plays"></span>
+            <!-- <img src="http://www.taxari.com/wp/wp-content/themes/taxari/images/play_icon.png" height="15px" /> -->
+        </li>
+    </a>
+</ul>
